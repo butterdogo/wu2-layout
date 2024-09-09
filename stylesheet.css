@@ -1,0 +1,110 @@
+.hero-grid {
+
+
+    display: grid;
+    grid-template-areas: "stack";
+
+
+
+    >* {
+
+        grid-area: stack;
+
+    }
+
+    h1, p {
+
+        font-size: 6rem;
+
+        color: black;
+
+        padding: 2rem;
+
+    }
+
+    p {
+
+        font-size: 2rem;
+
+    }
+
+
+    img {
+
+        width: 100%;
+
+        max-height: 60vh;
+
+        object-fit: cover;
+
+    }
+
+}
+
+
+.container{
+
+    max-width: 56rem;   
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    font-size: x-large;
+
+   
+}
+
+
+/*NAV BAR */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: var(--color-bg);
+    font-size: 1.4rem;
+  }
+  /* The following data-layout exceptions control how the navbar is displayed */
+  .navbar[data-layout="container"] {
+    display: block;
+    padding: 0;
+  }
+  .navbar[data-layout="inner"] {
+    display: flex;
+  }
+  .navbar[data-layout="center"] {
+    justify-content: space-around;
+  }
+  .navbar[data-layout="split"] {
+    justify-content: space-between;
+  }
+  /*  Class to style the unordered list which represents the actual menu */
+  .nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  /* Style links within the nav element, add :hover to improve */
+  .nav a {
+    text-decoration: none;
+  }
+  .nav-link {
+    color: var(--color-link);
+  }
+  /*  Brand or logo for the page */
+  .brand {
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+ 
+
