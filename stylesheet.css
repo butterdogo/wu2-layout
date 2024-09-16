@@ -68,7 +68,7 @@
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: var(--color-bg);
+
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
   }
@@ -102,9 +102,7 @@
     font-size: xx-large;
     margin: 30px;
   }
-  .nav-link {
-    color: var(--color-link);
-  }
+  
   /*  Brand or logo for the page */
   .brand {
     white-space: nowrap;
