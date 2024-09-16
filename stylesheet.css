@@ -70,6 +70,8 @@
     padding: 1.6rem;
     background-color: var(--color-bg);
     font-size: 1.4rem;
+    background-color: rgb(101, 178, 101);
+    margin-bottom: 0.5rem;
   }
   /* The following data-layout exceptions control how the navbar is displayed */
   .navbar[data-layout="container"] {
@@ -92,10 +94,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 1rem;
+    
   }
   /* Style links within the nav element, add :hover to improve */
   .nav a {
     text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    margin: 30px;
   }
   .nav-link {
     color: var(--color-link);
@@ -105,6 +111,20 @@
     white-space: nowrap;
     text-transform: uppercase;
     text-decoration: none;
+    color: black;
+    font-size: xx-large;
   }
  
 
+
+footer{
+
+margin-top: 4rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+text-align: center;
+font-size: xx-large;
+background-color: rgb(101, 178, 101);
+
+
+}
