@@ -67,10 +67,9 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    padding: 1.6rem;
+    padding: 1rem;
     background-color: var(--color-bg);
     font-size: 1.4rem;
-    background-color: rgb(101, 178, 101);
     margin-bottom: 0.5rem;
   }
   /* The following data-layout exceptions control how the navbar is displayed */
@@ -126,5 +125,11 @@ text-align: center;
 font-size: xx-large;
 background-color: rgb(101, 178, 101);
 
+
+}
+
+li{
+
+margin-bottom: 12px; 
 
 }
